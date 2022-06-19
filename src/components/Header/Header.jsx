@@ -32,7 +32,7 @@ const Header = () => {
               <img src="" alt="" />
             </span>
             <h2 className="d-flex">
-              <NavLink to="/home">Exodus</NavLink>
+              <NavLink to="/">Exodus</NavLink>
             </h2>
           </div>
 

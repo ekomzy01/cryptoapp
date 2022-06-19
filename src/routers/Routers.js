@@ -21,8 +21,8 @@ import Newsletter from '../pages/crypto/Newsletter';
 
 const Routers = () => {
   return <Routes>
-      <Route path='/' element={<Navigate to="/home"/>}/>
-      <Route path='/home' element={<Home />}/>
+      {/* <Route path='/' element={<Navigate to="/home"/>}/> */}
+      <Route path='/' element={<Home />}/>
       <Route path='/desktop' element={<Desktop />}/>
       <Route path='/mobile' element={<Mobile />}/>
       <Route path='/brower-extension' element={<Extension />}/>

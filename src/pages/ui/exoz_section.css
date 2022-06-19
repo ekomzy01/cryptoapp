@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
 }
 
+.home__content{
+    margin-bottom: 40px;
+}
+
 .home .home__heading{
     font-family: Roboto, sans-serif;
     color: #fff;
@@ -16,7 +20,7 @@
     text-align: center;
 }
 
-.home p{
+.home .home_text{
     font-size: 32px;
     font-weight: 100;
     line-height: 1.25;
@@ -64,4 +68,32 @@
     border-radius: 24px;
     box-shadow: 0 10px 30px 0 rgb(111 57 205 / 30%);
     color: #fff;
+}
+
+
+
+.bg-sm{
+    display: none;
+}
+
+.home__more{
+    color: #fff;
+    position: relative;
+}
+
+.home__more-content{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.home__more-text .home__more-tex{
+    font-size: 12px !important;
+}
+
+.bg__devices{
+  width: 56%;
+  position: absolute;
+  top: -120px;
+  right: 0;
 }
