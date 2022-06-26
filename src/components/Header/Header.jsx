@@ -28,9 +28,7 @@ const Header = () => {
       <Container>
         <nav className="navigation d-flex align-item-center justify-content-around">
           <div className="logo d-flex align-item-center">
-            <span>
-              <img src="" alt="" />
-            </span>
+            <span></span>
             <h2 className="d-flex">
               <NavLink to="/">Exodus</NavLink>
             </h2>
